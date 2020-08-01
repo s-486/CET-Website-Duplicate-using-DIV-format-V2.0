@@ -1,0 +1,1143 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	/*width: 100%;*/
+}
+
+/**********#HEADER***********/
+#header-1 {
+	background-color: #F9FBFA ;
+	box-shadow: 0 3px 4px #888;
+}
+#header-1 .containera #brand-name {
+	margin-top: 32px;
+	margin-left: 17px; 
+}
+
+#brand-name > h5 {
+	font-family: serif;
+	font-weight: 600;
+	font-size: 22px;
+	text-transform: uppercase;
+} 
+#brand-name > h5 > span {
+	font-family: sans-serif;
+}
+
+#brand-name > p {
+	font-weight: 500;
+	font-size: 18px;
+	margin-top: -10px;
+}
+#logo {
+	
+}
+.containera {
+	display: inline-flex;
+	margin-left: 180px;
+	border-top: 1px solid #000;
+}
+
+/**********NAVBAR************/
+
+#list-1 {
+	margin-left: 340px;
+	margin-top: -30px;
+}
+#list-1 li {
+	border: 1px solid #fff;
+	width: 100px;
+	height: 28px;
+	text-align: center;
+	margin: 0 .5px;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+	background-color: rgba(86, 175, 238, .3);
+}
+#list-1 li a {
+	color: #000;
+	font-weight: 500;
+	font-size: 15px;
+}
+#list-1 #l1 {
+	background-color: rgba(86, 175, 238, 1);
+}
+
+/**********NAVBAR-END************/
+
+/*******HEADER-END*******/
+
+
+/**********ADOBE PART***********/
+
+#adobe {
+	height: 195px;
+	background-color: rgba(86, 175, 238, .4);
+	box-shadow: 0px 35px 40px -15px rgba(0,0,0,.2);
+	border-bottom: 1px solid #fff;
+}
+#sub-adobe {
+	width: 760px;
+	height: 100%;
+	background-color: #F6F6F7;
+}
+.body {
+	margin-left: 180px;
+	width: 760px;
+}
+#sub-adobe i {
+	color: #C0C1C5;
+	margin-top: 60px;
+}
+
+/**********ADOBE PART-END***********/
+
+#cet {
+	border-bottom: 1px solid #71737B ;
+	font-family: serif;
+	font-weight: bold;
+	color: #545455;
+	margin-top: 20px;
+	padding-left: 260px;
+	padding-bottom: 0;
+	font-size: 20px;
+}
+/****************BODY-1*****************/
+
+#body-1 {
+	width: 60%;
+	margin: auto;
+	border: 1px solid #000;
+}
+
+
+/****************BODY-1 END*****************/
+
+
+
+/****************BODY-2*****************/
+
+#body-2 {
+	text-align: justify;
+	margin-bottom: 100px;
+}
+#body-2 .body {
+	margin-bottom: 20px;
+}
+#body-2 h6 {
+	font-size: 14px;
+	font-weight: 500;
+}
+#body-2 p {
+	font-size: 12px;
+	text-align: justify-all;
+}
+#body-2 ul >li {
+	font-size :12px;
+	margin: 5px;
+}
+#body-2 ul >li:before {
+	content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+    color: blue;
+}
+
+
+/****************BODY-2 END*****************/
+
+
+/****************BODY-3*****************/
+
+#body-3 .events {
+	display: inline-flex;
+	border: 1px solid #fff;
+	border-radius: 8px;
+	box-shadow: 8px 0 10px -4px gray, -8px 0 8px -4px gray;
+}
+#body-3 .sub-event {
+	display: inline;
+	width: 40%;
+	margin: auto;
+}
+#body-3 .sub-event h6 {
+	margin: 20px 0 20px 0;
+	font-weight: 400;
+}
+#body-3 .sub-event span {
+	font-size: 12px;
+	text-align: justify;
+	color: #000;
+	line-height: 11px;
+	margin-bottom: 20px !important; 
+}
+#body-3 .sub-event button {
+	font-size: 12px;
+	font-weight: bold;
+	color: #a10228;
+	margin-top: 20px;
+	margin-bottom: 14px;
+	border: 1px solid #908582;
+	border-radius: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#body-3 #notice-board {
+	
+}
+#body-3 #upcoming-events {
+	
+}
+
+/****************BODY-3 END*****************/
+
+
+
+
+/****************BODY-4*******************/
+
+/****************SUB-BODY4*******************/
+#body-4 {
+	position: absolute;
+	/*width: 224px;*/
+	width: 200px;
+	top: 78px;
+	left: 980px;
+	/*border: 1px solid red;*/
+	
+}
+#sub-body4 {
+	border: 1px solid #fff;
+	margin-top: 2px;
+	border-radius: 10px;
+	width: 100%;
+	box-shadow: 0 0 5px #888;
+}
+#black-list {
+	border: 1px solid gray;
+	margin-top: 40px;
+	width: 100%;
+}
+#black-list table {
+	font-size: 12px;
+	width: 100%;
+}
+#black-list table tr {
+	width: 100%;
+	background-color: #282829;
+	color: #fff;
+	border: 1px solid #fff;
+}
+#black-list table tr td {
+	padding: 4px 5px;
+}
+#black-list table tr td:hover {
+	cursor: pointer;
+	color: yellow;
+}
+#body-4 > #sub-body4 > #black-list div {
+		height: 10px;
+		width: 10px;
+		border: 2px inset #fff;
+		margin-top:5px;
+	}
+#online {
+	font-size: 18px;
+	font-weight: bolder;
+	background-color: #1B1C59 ;
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+#alumni {
+	font-size: 18px;
+	font-weight: bolder;
+	background-color: #E9EE30;
+	color: #45453F;
+	margin-top: 20px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	width: 100%;
+}
+#alumni a:hover {
+	text-decoration: none;
+}
+#ugc-naac {
+	font-size: 18px;
+	font-weight: bolder;
+	background-color: #CFCFCF;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	width: 100%;
+}
+#img {
+	width: 100%;
+	height: 120px;
+	background-image: url('../images/nirf.jpg');
+	background-size: cover;
+	border-bottom: 1px solid #000;
+}
+
+/****************SUB-BODY4 END*******************/
+
+/****************sub-body41*******************/
+
+#sub-body41 {
+	width: 100%;
+	border: 1px solid gray;
+	border-radius: 4px;
+	margin-top: 40px;
+	box-shadow: 0 0 6px #888;
+}
+#sub-body41 > div {
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 5px;
+}
+#sub-body41 p {
+	margin-top: 20px;
+	margin-left: 5px;
+	font-size: 12px;
+}
+
+/****************sub-body41 end*******************/
+
+/****************sub-body42*******************/
+#sub-body42 {
+	margin-top: 15px;
+	border: 1px solid gray;
+	box-shadow: 0 0 6px #888;
+	border-radius: 4px;
+}
+#sub-body42 #newa, #sub-body43 #newb {
+	width: 100%;
+	font-size: 20px;
+	font-weight: 700;
+	color: #ED3636;
+	padding: 2px;
+	background-color: #F1F1F1;
+}
+#sub-body42 #new1, #sub-body43 #new3 {
+	animation: blink 1s linear infinite;
+}
+@keyframes blink {
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+#new2 {
+	width: 100%;
+	padding: 3px;
+}
+#new2 p {
+	font-size: 12px;
+}
+#new2 h6 {
+	background-color: rgba(86, 175, 238, .3);
+	padding: 4px;
+	border: 1px solid gray;
+}
+
+#new2 h6:hover {
+	color: red;
+	text-decoration: underline;
+	background-color: #F1F0F0 ;
+	cursor: pointer;
+}
+
+
+/****************sub-body42 end*******************/
+#sub-body43 {
+	box-shadow: 0 0 6px #888;
+	padding-bottom: 50px;
+	margin-top: 15px;
+	border: 1px solid #A5A5A5;
+	border-radius: 4px;
+	width: 100%;
+}
+#sub-body43 p {
+	font-size: 14px;
+	text-align: justify;
+	padding: 5px;
+	word-spacing: 7px;
+}
+
+/****************BODY-4 END*****************/
+
+
+/****************FOOTER*****************/
+
+footer {
+	width: 78%;
+	margin: auto;
+	background-color: #2F2E2E;
+	margin-top: 30px;
+}
+footer p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	color: gray;
+
+}
+
+/****************FOOTER-END*****************/
+
+
+/****************MEDIA-QUERY START*****************/
+
+/****************for LARGE DEVICES****************/
+@media (min-width: 992px) and (max-width: 1200px) {
+	#sub-adobe {
+		width: 62%;
+		height: 100%;
+		background-color: #F6F6F7;
+	}
+	.body {
+		margin-left: 100px;
+		width: 62%;
+	}
+	.containera {
+		display: inline-flex;
+		margin-left: 20px;
+	}
+	#list-1 {
+		margin-left: 140px;
+		margin-top: -30px;
+	}
+	#list-1 li {
+		width: 11%;
+	}
+	#cet {
+		border-bottom: 1px solid #71737B ;
+		font-family: serif;
+		font-weight: bold;
+		color: #545455;
+		margin-top: 20px;
+		padding-left: 100px;
+		padding-bottom: 0;
+		font-size: 20px;
+	}
+	#body-4 {
+		position: absolute;
+		/*width: 224px;*/
+		width: 23%;
+		top: 78px;
+		left: 73%;
+	}
+}
+
+
+/****************for MEDIUM DEVICES****************/
+@media (min-width: 768px) and (max-width: 991px) {
+	#logo > img {
+		height: 100px;
+		width: 65px;
+	} 
+	#brand-name > h5 {
+		font-size: 17px;
+	}
+	#brand-name > p {
+		font-size: 13px;
+	}
+	#header-1 .containera #brand-name {
+		margin-top: 25px;
+		margin-left: 10px; 
+	}
+	#list-1 li a {
+		color: #000;
+		font-weight: 500;
+		font-size: 12px;
+	}
+	#list-1 li {
+		width: 11.5%;
+	}
+	header div #list-1 {
+		margin-left: 95px;
+		margin-top: -30px;
+	}
+
+	.body {
+		margin-left: 10px;
+		width: 71%;
+	}
+	#adobe {
+		height: 150px;
+	}
+	#sub-adobe {
+		width: 73%;
+		margin-left: 0;
+	}
+	#sub-adobe i {
+		margin-top: 47px;
+	}
+	.containera {
+		display: inline-flex;
+		margin-left: 5px;
+		border-top: 1px solid #000;
+	}
+	#list-1 {
+		margin-left: 140px;
+		margin-top: -30px;
+	}
+	#body-2 .body {
+		margin-bottom: 20px;
+	}
+	#body-2 h6 {
+		font-size: 12px;
+		font-weight: 500;
+	}
+	#body-2 p {
+		font-size: 10px;
+		text-align: justify-all;
+	}
+	#cet {
+		border-bottom: 1px solid #71737B ;
+		font-family: serif;
+		font-weight: bold;
+		color: #545455;
+		margin-top: 20px;
+		padding-left: 100px;
+		padding-bottom: 0;
+		font-size: 16px;
+		margin-left: -90px;
+	}
+	#body-4 {
+		position: absolute;
+		/*width: 224px;*/
+		width: 22%;
+		top: 48px;
+		left: 75.5%;
+	}
+	footer {
+		width: 100%;
+		margin-top: 50px;
+	}
+	#body-4 > #sub-body4 > #black-list div {
+		height: 8px;
+		width: 8px;
+		border: 1px inset #fff;
+		margin-top:5px;
+	}
+	#black-list table {
+		font-size: 10px;
+	}
+}
+
+
+/****************for SMALL DEVICES****************/
+@media (min-width: 576px) and (max-width: 767px) {
+	#logo > img {
+		height: 90px;
+		width: 60px;
+	} 
+	#brand-name > h5 {
+		font-size: 14px;
+		font-weight: 600;
+	}
+	#brand-name > p {
+		font-size: 11px;
+	}
+	#header-1 .containera #brand-name {
+		margin-top: 22px;
+		margin-left: 6px; 
+	}
+	#list-1 li a {
+		color: #000;
+		font-weight: 500;
+		font-size: 8px;
+		margin: 0;
+	}
+	#list-1 li {
+		width: 11.5%;
+		height: 24px;
+		margin: 0px;
+	}
+	header div #list-1 {
+		margin-left: 65px;
+		margin-top: -30px;
+	}
+
+	.body {
+		margin-left: 10px;
+		width: 71%;
+	}
+	#adobe {
+		height: 120px;
+	}
+	#sub-adobe {
+		width: 73%;
+		margin-left: 0;
+		font-size: 10px;
+	}
+	#sub-adobe i {
+		margin-top: 32px;
+		font-size: 25px;
+	}
+	#cet {
+		margin-left: -250px;
+	}
+	.containera {
+		display: inline-flex;
+		margin-left: 5px;
+	}
+	#list-1 {
+		margin-left: 140px;
+		margin-top: -30px;
+	}
+	#body-2 .body {
+		margin-bottom: 20px;
+	}
+	#body-2 h6 {
+		font-size: 10px;
+		font-weight: 500;
+	}
+	#body-2 p {
+		font-size: 8px;
+		text-align: justify;
+	}
+	#body-2 .body {
+		margin-bottom: 5px;
+	}
+	#body-2 ul >li {
+		font-size :6px;
+		margin: 1px;
+	}
+	#body-3 {
+		margin-top: -20px;
+	}
+	#cet {
+		border-bottom: 1px solid #71737B ;
+		font-family: serif;
+		font-weight: bold;
+		color: #545455;
+		margin-top: 20px;
+		padding-left: 100px;
+		padding-bottom: 0;
+		font-size: 16px;
+		margin-left: -90px;
+	}
+	#body-4 {
+		position: absolute;
+		/*width: 224px;*/
+		width: 22%;
+		top: 48px;
+		left: 75.5%;
+	}
+	#body-4 > #sub-body4 > #black-list div {
+		height: 6px;
+		width: 6px;
+		border: 1px inset #fff;
+		margin-top:3px;
+	}
+	#footer {
+		width: 100%;
+	}
+	/****************BODY-4 under media query*******************/
+
+	/****************SUB-BODY4 under media query*******************/
+	#black-list {
+		margin-top: 28px;
+	}
+	#black-list table {
+		font-size: 9px;
+		width: 100%;
+	}
+	#black-list table tr td {
+		padding: 2px 3px;
+	}
+	#online {
+		font-size: 12px;
+		font-weight: bolder;
+		margin-top: 16px;
+		margin-bottom: 20px;
+	}
+	#alumni {
+		font-size: 12px;
+		margin-top: 20px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+	}
+	#ugc-naac {
+		font-size: 12px;
+		font-weight: bolder;
+		background-color: #CFCFCF;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		width: 100%;
+	}
+	#img {
+		width: 80%;
+		height: 50px;
+		margin: auto;
+	}
+
+	/****************SUB-BODY4 END under media query*******************/
+
+	/****************sub-body41 under media query*******************/
+	#sub-body41 {
+		margin-top: 10px;
+	}
+	#sub-body41 > div {
+		font-size: 14px;
+		font-weight: bold;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		padding-left: 5px;
+	}
+	#sub-body41 p {
+		margin-top: 20px;
+		margin-left: 5px;
+		font-size: 8px;
+	}
+
+	/****************sub-body41 end under media query*******************/
+
+	/****************sub-body42 under media query*******************/
+	#sub-body42 #newa, #sub-body43 #newb {
+		font-size: 14px;
+		font-weight: 700;
+	}
+	#new2 p {
+		font-size: 8px;
+	}
+	body #body-4 #newa #new-2 h6 {
+		font-size: 6px !important;
+	}
+
+
+	/****************sub-body42 end under media query*******************/
+	#sub-body43 p {
+		font-size: 10px;
+		word-spacing: 7px;
+	}
+
+	/****************BODY-4 END under media query*****************/
+}
+
+
+
+/****************for EXTRA-SMALL DEVICES****************/
+
+@media (min-width: 421px) and (max-width: 575px) {
+	#logo > img {
+		height: 56px;
+		width: 36px;
+	} 
+	#brand-name > h5 {
+		font-size: 10px;
+		font-weight: 500;
+	}
+	#brand-name > p {
+		font-size: 8px;
+	}
+	#header-1 .containera #brand-name {
+		margin-top: 10px;
+		margin-left: 6px; 
+	}
+	#list-1 li a {
+		color: #000;
+		font-weight: 500;
+		font-size: 6px;
+	}
+	#list-1 li {
+		width: 11%;
+		height: 24px;
+	}
+	header div #list-1 {
+		margin-left: 40px;
+		margin-top: -22px;
+	}
+
+	.body {
+		margin-left: 10px;
+		width: 66%;
+	}
+	#adobe {
+		height: 80px;
+	}
+	#sub-adobe {
+		width: 70%;
+		margin-left: 0;
+		font-size: 8px;
+	}
+	#sub-adobe i {
+		margin-top: 24px;
+		font-size: 25px;
+	}
+	.containera {
+		display: inline-flex;
+		margin-left: 5px;
+		border-top: 1px solid #000;
+	}
+	#list-1 {
+		margin-left: 140px;
+		margin-top: -30px;
+	}
+	#body-2 .body {
+		margin-bottom: 20px;
+	}
+	#body-2 h6 {
+		font-size: 8px;
+		font-weight: 500;
+	}
+	#body-2 p {
+		font-size: 6px;
+		text-align: justify;
+	}
+	#body-2 .body {
+		margin-bottom: 2px;
+	}
+	#body-2 ul >li {
+		font-size :6px;
+		margin: 1px;
+	}
+	#body-3 {
+		height: 40px;
+		font-size: 6px;
+	}
+	#body-3 marquee {
+		height: 30px;
+	}
+	#body-3 h6 {
+		font-size: 12px;
+	}
+	#body-3 button {
+		font-size: 6px;
+	}
+	#cet {
+		border-bottom: 1px solid #71737B ;
+		font-family: serif;
+		font-weight: bold;
+		color: #545455;
+		margin-top: 20px;
+		padding-left: 100px;
+		padding-bottom: 0;
+		font-size: 16px;
+		margin-left: -90px;
+	}
+	#body-4 {
+		position: absolute;
+		/*width: 224px;*/
+		width: 25%;
+		top: 30px;
+		left: 73%;
+	}
+	#footer {
+		width: 100%;
+		margin-top: 130px;
+		font-size: 12px;
+	}
+	/****************BODY-4 under media query*******************/
+
+	/****************SUB-BODY4 under media query*******************/
+	#sub-body4 {
+		border-radius: 6px;
+	}
+	#black-list {
+		margin-top: 20px;
+	}
+	#black-list table {
+		font-size: 9px;
+		width: 100%;
+	}
+	#black-list table tr td {
+		padding: 2px 3px;
+	}
+	#body-4 > #sub-body4 > #black-list div {
+		height: 5px;
+		width: 5px;
+		border: 1px inset #fff;
+		margin-top:5px;
+	}
+	#online {
+		font-size: 6px;
+		font-weight: bolder;
+		margin-top: 12px;
+		margin-bottom: 16px;
+	}
+	#alumni {
+		font-size: 6px;
+		margin-top: 15px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+	}
+	#ugc-naac {
+		font-size: 8px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		width: 100%;
+	}
+	#img {
+		width: 60%;
+		height: 30px;
+		margin: auto;
+	}
+
+	/****************SUB-BODY4 END under media query*******************/
+
+	/****************sub-body41 under media query*******************/
+	#sub-body41 {
+		margin-top: 10px;
+	}
+	#sub-body41 > div {
+		font-size: 10px;
+		font-weight: bold;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		padding-left: 4px;
+	}
+	#sub-body41 p img {
+		height: 30px;
+		width: 20px;
+	}
+	#sub-body41 p {
+		margin-top: 15px;
+		margin-left: 3px;
+		font-size: 6px;
+	}
+
+	/****************sub-body41 end under media query*******************/
+
+	/****************sub-body42 under media query*******************/
+	#sub-body42 #newa, #sub-body43 #newb {
+		font-size: 10px;
+		font-weight: 700;
+	}
+	#new2 p {
+		font-size: 6px;
+	}
+	body #body-4 #newa #new-2 h6 {
+		font-size: 6px !important;
+	}
+
+
+	/****************sub-body42 end under media query*******************/
+	#sub-body43 p {
+		font-size: 6px;
+		word-spacing: 4px;
+	}
+
+	/****************BODY-4 END under media query*****************/
+}
+
+
+
+/****************for extra EXTRA-SMALL DEVICES****************/
+@media (max-width: 420px) {
+	#logo > img {
+		height: 56px;
+		width: 36px;
+	} 
+	#brand-name > h5 {
+		font-size: 10px;
+		font-weight: 500;
+	}
+	#brand-name > p {
+		font-size: 8px;
+	}
+	#header-1 .containera #brand-name {
+		margin-top: 10px;
+		margin-left: 6px; 
+	}
+	#list-1 li a {
+		color: #000;
+		font-weight: 500;
+		font-size: 6px;
+	}
+	#list-1 li {
+		width: 11.5%;
+		height: 24px;
+	}
+	header div #list-1 {
+		margin-left: 40px;
+		margin-top: -22px;
+	}
+
+	.body {
+		margin-left: 10px;
+		width: 70%;
+	}
+	#adobe {
+		height: 80px;
+	}
+	#sub-adobe {
+		width: 74%;
+		margin-left: 0;
+		font-size: 8px;
+	}
+	#sub-adobe i {
+		margin-top: 24px;
+		font-size: 25px;
+	}
+	.containera {
+		display: inline-flex;
+		margin-left: 5px;
+		border-top: 1px solid #000;
+	}
+	#list-1 {
+		margin-left: 140px;
+		margin-top: -30px;
+	}
+	#body-2 .body {
+		margin-bottom: 20px;
+	}
+	#body-2 h6 {
+		font-size: 8px;
+		font-weight: 500;
+	}
+	#body-2 p {
+		font-size: 6px;
+		text-align: justify;
+	}
+	#body-2 .body {
+		margin-bottom: 2px;
+	}
+	#body-2 ul >li {
+		font-size :6px;
+		margin: 1px;
+	}
+	#body-3 {
+		height: 40px;
+		font-size: 6px;
+	}
+	#body-3 marquee {
+		height: 30px;
+	}
+	#body-3 h6 {
+		font-size: 12px;
+	}
+	#body-3 button {
+		font-size: 6px;
+	}
+	#cet {
+		border-bottom: 1px solid #71737B ;
+		font-family: serif;
+		font-weight: bold;
+		color: #545455;
+		margin-top: 20px;
+		padding-left: 100px;
+		padding-bottom: 0;
+		font-size: 16px;
+		margin-left: -90px;
+	}
+	#body-4 {
+		position: absolute;
+		/*width: 224px;*/
+		width: 22%;
+		top: 30px;
+		left: 76%;
+		background-color: #fff;
+	}
+	#footer {
+		width: 100%;
+		margin-top: 130px;
+		font-size:8px;
+	}
+	/****************BODY-4 under media query*******************/
+
+	/****************SUB-BODY4 under media query*******************/
+	#black-list {
+		margin-top: 14px;
+	}
+	#black-list table {
+		font-size: 4px;
+		width: 100%;
+	}
+	#black-list table tr td {
+		padding: 3px 4px;
+	}
+	#sub-body4 {
+		border-radius: 5px;
+	}
+	#body-4 > #sub-body4 > #black-list div {
+		height: 4px;
+		width: 4px;
+		border: .5px solid #fff;
+		margin-top:1px;
+	}
+	#online {
+		font-size: 6px;
+		font-weight: bolder;
+		margin-top: 12px;
+		margin-bottom: 16px;
+	}
+	#alumni {
+		font-size: 6px;
+		margin-top: 15px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+	}
+	#ugc-naac {
+		font-size: 8px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		width: 100%;
+	}
+	#img {
+		width: 60%;
+		height: 30px;
+		margin: auto;
+	}
+
+	/****************SUB-BODY4 END under media query*******************/
+
+	/****************sub-body41 under media query*******************/
+	#sub-body41 {
+		margin-top: 10px;
+	}
+	#sub-body41 > div {
+		font-size: 10px;
+		font-weight: bold;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		padding-left: 4px;
+	}
+	#sub-body41 p img {
+		height: 30px;
+		width: 20px;
+	}
+	#sub-body41 p {
+		margin-top: 15px;
+		margin-left: 3px;
+		font-size: 6px;
+	}
+
+	/****************sub-body41 end under media query*******************/
+
+	/****************sub-body42 under media query*******************/
+	#sub-body42 #newa, #sub-body43 #newb {
+		font-size: 10px;
+		font-weight: 700;
+	}
+	#new2 p {
+		font-size: 6px;
+	}
+	body #body-4 #newa #new-2 h6 {
+		font-size: 6px !important;
+	}
+
+
+	/****************sub-body42 end under media query*******************/
+	#sub-body43 p {
+		font-size: 6px;
+		word-spacing: 4px;
+	}
+
+	/****************BODY-4 END under media query*****************/
+}
+
+
+
+/****************MEDIA-QUERY END*****************/
